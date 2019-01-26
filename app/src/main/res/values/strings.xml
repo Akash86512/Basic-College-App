@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FET-GKV</string>
+    <string name="tab_text_1">GKV</string>
+    <string name="tab_text_2">FET</string>
+    <string name="tab_text_3">ACTIVITY</string>
+    <string name="action_setting">setting</string>
+    <string name="fet"> The Faculty of Engineering and Technology was established with a view to provide technical education in surroundings of spiritual and Gurukula system of education. Gurukula Kangri Vishwavidyalaya, Haridwar is known in India and abroad for the process of character building of the students through their moral and physical development. Keeping the same ideals in mind, management of the Vishwavidyalaya felt the need of technocrats with strong moral character, superior knowledge, who can serve the nation during this era of transition from materialism to a balance of materialism and spiritualism.The Faculty of Engineering and Technology was established year 2000 at present it is running B.Tech. in Computer Science and Engineering , Electronics and Communication Engineering ,Electrical Engineering and Mechanical Engineering . FET is accredited with TCS and major companies like Infosys, Adobe, Tech. Mahindra, HCL, Mahindra Satyam, J.K.Technosoft, Infogain have recruited our students. Beside teaching FET conducts regular extra curricular activities like technical festival, sports etc.Students of FET enjoy the facility of state of art gymnasium situated at university stadium. </string>
+
+
+    <string name="plecement">The companies listed in “Fortune-500 Companies”, continues to hunt talent from GKV, despite its popularity as Vedic University. Withholding its Gurukula approach of teaching, Gurukula Kangri Vishwavidyalaya is running many professional courses like MCA, MBA, M.Sc., B.Tech., B.Pharma., BBA etc. with different specialization in addition to its conventional courses. With the sincere efforts of Corporate Affairs and Outreach Cell headed by Prof. (Dr.) Pankaj Madan as Professor Incharge and Mr. Durgesh Gaurav as Training and Placement Officer in strong coordination and support of the University Administration specially Dr.Surendra Kumar – Vice Chancellor and Prof. V. K. Sharma – Registrar,cell continues its support to the students by providing a strong platform to start with their career and arranging worthwhile compensation packages</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="gkv1">Gurukula has witnessed many distinguished guests in its journey till date. To name a few of them are Mr.C.F. Andrews, Former Prime Minister of Britain, Mr. Remjy Mcdonald, Mahatma Gandhi, Pt. Madan Mohan Malviya, Dr. Rajendra Prasad, Dr Radha Krishnan, Sh.Jamnalal Bajaj,Dr. Munje, Sadhu Vaswani,Pt. Jawahar Lal Nehru, Smt. Indira Gandhi and Sh.Gyani Jail Singh, Sh.L.K.Advani and recently in 2011 Smt.Meira Kumar, Speaker Lok Sabha visited the vishwavidyalaya.</string>
+    <string name="gkv">Gurukula Kangri Vishwavidyalaya was founded on March 4, 1902 by Swami Shraddhanandaji with the sole aim to revive the ancient Indian Gurukula System of education, on the bank of Ganges at a distance of about 6 km. from Hardwar and about 200 km. from Delhi. This institution was established with the objective of providing an indigenous alternative to Lord Macaulay’s education policy by imparting education in the areas of vedic literature, Indian philosophy, Indian culture, modern sciences and research.It is a deemed to be university fully funded by UGC/Govt. of India.</string>
+    <string name="title_activity_maps1">Map</string>
+    <string name="title_activity_maps2">Map</string>
+</resources>

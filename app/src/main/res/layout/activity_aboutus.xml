@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.akashkumar.gkv1.aboutus">
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adview"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-2368632371520037/9698473426">
+
+    </com.google.android.gms.ads.AdView>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="186dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/ak1"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="2dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_margin="30dp"
+        android:textColor="@color/white1"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:text="Hi guys this app useful to you get  some information about Gurukul kangri University and Faculty of Engineering and technology
+
+I am Akash Kumar I Currently Studying in Btech CSE-IV sem FET-GKV(2016-20)           akashkumar0499@gmail.com"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

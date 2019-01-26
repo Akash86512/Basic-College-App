@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.akashkumar.gkv1.Contact2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textColor="@color/blue"
+        android:background="@color/white"
+        android:textAlignment="center"
+        android:textSize="30dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For Any queries For FET:
+"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+
+        android:text="Dr.Sunil Panwar(DEAN)  dr.sunilpanwar@yahoo.co.in     	9897048445"
+        android:textColor="@color/white1"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:text="Dr. M. M. Tiwari  muralimanohartiwari@yahoo.co.in   	9411755444"
+        android:textColor="@color/white1"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Dr. Mayank Aggarwal(CSE-HOD) uormayank@yahoo.com,
+mayank@gkv.ac.in                         9719004462"
+
+        android:textColor="@color/white1"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:text="Dr. Vipul Sharma(ECE-HOD)         vipul.s@rediffmail.com            	  9760581291"
+        android:textColor="@color/white1"
+        android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:text="Mr. Sanjeev Kumar Lambha(ME-HOD)         sanjeev.lambha@ gkv.ac.in            	  9897058062"
+            android:textColor="@color/white1"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:text="Mr. Gajendra Singh Rawat(EE-HOD)         gajendrarawat009@gmail.com            	  9528290299"
+            android:textColor="@color/white1"
+            android:textSize="20dp"/>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

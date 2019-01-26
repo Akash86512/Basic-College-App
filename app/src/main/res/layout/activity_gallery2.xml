@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.akashkumar.gkv1.Gallery2">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="384dp"
+                android:layout_height="292dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/fet1" />
+            <ImageView
+                android:layout_width="384dp"
+                android:layout_height="292dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/fet2" />
+            <ImageView
+                android:layout_width="384dp"
+                android:layout_height="292dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/fet3" />
+            <ImageView
+                android:layout_width="384dp"
+                android:layout_height="292dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/fet4" />
+            <ImageView
+                android:layout_width="384dp"
+                android:layout_height="292dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/fet11" />
+            <ImageView
+                android:layout_width="384dp"
+                android:layout_height="292dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/fet12" />
+            <ImageView
+                android:layout_width="384dp"
+                android:layout_height="292dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/fet13" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@drawable/fet5" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/photo2"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/photo3"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/photo4"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/photo5"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/photo6"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/photo7"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/photo8"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/photo9"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/photo10"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/photo11"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

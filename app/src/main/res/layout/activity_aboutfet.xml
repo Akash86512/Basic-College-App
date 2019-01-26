@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.akashkumar.gkv1.aboutfet">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white1"
+        android:text="FACULTY OF ENGINEERING AND TECHNOLOGY"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:background="@color/blue"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="260dp">
+
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="15dp"
+        android:textColor="@color/white1"
+        android:text="@string/fet"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="25dp"
+            android:textColor="@color/white1"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:background="@color/blue"
+            android:text="Faculty has following seven departments:"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="25dp"
+            android:textColor="@color/white1"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:text="Department of Computer Sc. and Engineering"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="25dp"
+            android:textColor="@color/white1"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:text="Department of Electronics Communication and Engineering"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="25dp"
+            android:textColor="@color/white1"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:text="Department of Electrical Engineering"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="25dp"
+            android:textColor="@color/white1"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:text="Department of Mechanical Engineering"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="25dp"
+            android:textColor="@color/white1"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:text="Department of Applied Physics"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="25dp"
+            android:textColor="@color/white1"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:text="Department of Applied Chemistry"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="25dp"
+            android:textColor="@color/white1"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:text=" Department of Applied Mathematics"/>
+
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

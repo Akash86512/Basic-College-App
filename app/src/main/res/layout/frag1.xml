@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/adview"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-2368632371520037/9698473426">
+
+    </com.google.android.gms.ads.AdView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp">
+
+    <Button
+        android:layout_width="156dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:id="@+id/gkv"
+        android:background="@drawable/gkv3" />
+
+    <Button
+        android:id="@+id/campus"
+        android:layout_width="157dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/univercity" />
+
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="    About University"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+
+           />
+
+        <TextView
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:text="       Campus"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+
+
+        <Button
+            android:layout_width="142dp"
+            android:layout_height="107dp"
+            android:layout_margin="20dp"
+            android:id="@+id/plecement"
+            android:background="@drawable/jobs" />
+
+
+        <Button
+            android:layout_width="142dp"
+            android:layout_height="107dp"
+            android:layout_margin="20dp"
+            android:id="@+id/course"
+            android:background="@drawable/course" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="          Placement"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+
+            />
+
+        <TextView
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:text="          Course"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+
+
+
+        <Button
+            android:id="@+id/gallery"
+            android:layout_width="142dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/galleryicon" />
+        <Button
+            android:id="@+id/video"
+            android:layout_width="142dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/video" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="          Gallery"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+
+            />
+
+        <TextView
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:text="        Video"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+
+        <Button
+        android:layout_width="147dp"
+        android:layout_height="107dp"
+        android:layout_margin="20dp"
+        android:id="@+id/cantact"
+        android:background="@drawable/cantact" />
+
+
+
+
+
+        <Button
+            android:id="@+id/map"
+            android:layout_width="146dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/map" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="           Cantact"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+
+            />
+
+        <TextView
+            android:layout_width="148dp"
+            android:layout_height="100dp"
+            android:text="           Map"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>
+
+
+
+  
+
+
+</LinearLayout>

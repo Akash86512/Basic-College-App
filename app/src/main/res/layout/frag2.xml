@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adview"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-2368632371520037/9698473426">
+
+        </com.google.android.gms.ads.AdView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+                <Button
+                    android:layout_width="147dp"
+                    android:layout_height="107dp"
+                    android:layout_margin="20dp"
+                    android:id="@+id/fet2"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/feticon" />
+
+
+                <Button
+                    android:id="@+id/course2"
+                    android:layout_width="146dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/study" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="        About FET"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:text="           Course"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+                <Button
+                    android:layout_width="147dp"
+                    android:layout_height="107dp"
+                    android:layout_margin="20dp"
+                    android:id="@+id/place2"
+                    android:background="@drawable/pl1" />
+
+
+
+
+
+                <Button
+                    android:id="@+id/gallery2"
+                    android:layout_width="146dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/gal2" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="           Placement"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:text="          Gallery"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+                <Button
+                    android:layout_width="147dp"
+                    android:layout_height="107dp"
+                    android:layout_margin="20dp"
+                    android:id="@+id/cantact2"
+                    android:background="@drawable/call" />
+
+
+
+
+
+                <Button
+                    android:id="@+id/map2"
+                    android:layout_width="146dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/map" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="           Cantact"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:text="           Map"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <Button
+            android:id="@+id/video1"
+            android:layout_width="146dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/video" />
+        <Button
+            android:id="@+id/live"
+            android:layout_width="146dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/livenews" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:text="             video"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="148dp"
+                    android:layout_height="100dp"
+                    android:text="        Live News"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+
+
+        </LinearLayout>
+
+</LinearLayout>
+        </ScrollView>
+</LinearLayout>
